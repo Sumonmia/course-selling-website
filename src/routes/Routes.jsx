@@ -26,12 +26,12 @@ import PrivateRoute from "./PrivateRoute";
                 <AllCourses></AllCourses>
               </PrivateRoute>
             ),
-            loader: ()=> fetch(`http://localhost:5000/courses`),
+            loader: ()=> fetch(`https://bootcamp-courseselling-web-server.vercel.app/courses`),
         },
         {
           path: "/courses/:id",
           element: <CourseDetails></CourseDetails>,
-          loader: ({params})=> fetch(`http://localhost:5000/courses/${params.id}`),
+          loader: ({params})=> fetch(`https://bootcamp-courseselling-web-server.vercel.app/courses/${params.id}`),
         },
         {
             path: "/login",
