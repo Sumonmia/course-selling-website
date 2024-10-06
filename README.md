@@ -14,10 +14,15 @@ Welcome to the **LearnSphere** project! This is a fully responsive and dynamic w
 
 ## Technologies Used
 **React:** Frontend framework for building the user interface.
+
 **React Router:** For navigation between different pages.
+
 **Firebase:** For User, Gooogle and GitHub Authenticatipn
+
 **Vercel:** For Backend Server Deployment
+
 **Tailwind CSS:** Utility-first CSS framework for styling the application.
+
 **Git:** Version control for collaboration and tracking changes.
 
 ## Live url: https://bootcamp-courseselling-client.web.app/
