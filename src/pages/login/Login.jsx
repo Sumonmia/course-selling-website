@@ -6,6 +6,7 @@ import { GithubAuthProvider, GoogleAuthProvider } from "firebase/auth";
 import toast from "react-hot-toast";
 
 
+
 const Login = () => {
 
     const { signIn, googleSignIn, githubSignIn } = useContext(AuthContext);
@@ -66,7 +67,6 @@ const Login = () => {
         console.log(error);
       })
     }
-
 
     return (
         <div>
